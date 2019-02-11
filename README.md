@@ -26,9 +26,9 @@ Various departments have insisted on the following discounts:
 
 Triggerise's checkout process allows for items to be scanned in any order, and should return the total amount to be paid. The interface for the checkout process looks like this (Scala):
 
-```Scala
-val co = Checkout(pricing_rules)
-co.scan("TICKET")
+```Ruby
+co = Checkout.new(pricing_rules)
 co.scan("TICKET")
 co.scan("HOODIE")
-val price = co.total
+co.scan("HAT")
+price = co.total
