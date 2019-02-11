@@ -24,7 +24,7 @@ Various departments have insisted on the following discounts:
 
  * The CFO insists that the best way to increase sales is with discounts on bulk purchases (buying x or more of a product, the price of that product is reduced), and demands that if you buy 3 or more `HOODIE` items, the price per unit should be 19.00€.
 
-Triggerise's checkout process allows for items to be scanned in any order, and should return the total amount to be paid. The interface for the checkout process looks like this (Scala):
+Triggerise's checkout process allows for items to be scanned in any order, and should return the total amount to be paid. The interface for the checkout process looks like this:
 
 ```Ruby
 co = Checkout.new(pricing_rules)
