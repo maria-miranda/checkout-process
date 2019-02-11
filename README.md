@@ -6,7 +6,7 @@ To run the application in the shell use `ruby checkout_interface.rb `
 
 To run all tests use `ruby test/test_checkout.rb`
 
-# Triggerise BE Challenge
+## Triggerise BE Challenge
 
 Besides providing exceptional rewards for good behaviours, Triggerise also runs a physical store which sells (only) 3 products:
 
